@@ -15,5 +15,5 @@ pip3 install -r requirements.txt
 
 Test the code
 ```bash
-pytest compress_str
+pytest 2_compress_str
 ```
