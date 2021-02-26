@@ -1,5 +1,5 @@
 def compress_str(txt):
-    if not txt:
+    if (not txt) or (not isinstance(txt, str)):
         return txt
 
     result = ''
